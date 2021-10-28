@@ -9,24 +9,39 @@
   6. [Tests](#Tests)
   7. [Further Questions](#Questions)
 
- ## Live video 
+ ## Heroku link
  
-https://drive.google.com/file/d/1Dk-FGlUBdDLLATp0JbA9lfQ0X4CWXSbP/view 
+https://protected-fjord-85591.herokuapp.com/exercise?id=617aa2b9ba396c001651e2f9
 
   ## Description 
 
- Developers frequently have to create interfaces that allow non-developers to easily view and interact with information stored in databases. These interfaces are called **content management systems (CMS)**. Your assignment this week is to build a command-line application from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.
+For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
-Because this application won’t be deployed, you’ll also need to create a walkthrough video that demonstrates its functionality and all of the following acceptance criteria being met. You’ll need to submit a link to the video and add it to the README of your project.
+## User Story
 
-```md
-AS A business owner
-I WANT to be able to view and manage the departments, roles, and employees in my company
-SO THAT I can organize and plan my business
+* As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+
+## Business Context
+
+A consumer will reach their fitness goals more quickly when they track their workout progress.
+
+## Acceptance Criteria
+
+When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+
+The user should be able to:
+
+  * Add exercises to the most recent workout plan.
+
+  * Add new exercises to a new workout plan.
+
+  * View the combined weight of multiple exercises from the past seven workouts on the `stats` page.
+
+  * View the total duration of each workout from the past seven workouts on the `stats` page.
   
 
   ## Installation
-  NPM INIT -Y, NPM I to install dependancies
+  NPM I, NPM run seed, Heroku open, NPM. Start
 
   ## Usage
   N/A
